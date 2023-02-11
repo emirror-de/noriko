@@ -1,0 +1,32 @@
+# Colors (Noriko - Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x444444'
+    foreground: '0xffffff'
+
+  cursor:
+    text: '0xffffff'
+    cursor: '0x888888'
+
+  # Normal colors
+  normal:
+    black:   '0x444444'
+    red:     '0xfa8072' # salmon
+    green:   '0x2e8b57' # seagreen
+    yellow:  '0x999900' # dark yellow3
+    blue:    '0x6495ed' # cornflowerblue
+    magenta: '0xba55d3' # mediumorchid
+    cyan:    '0x5f9ea0' # cadetblue
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x888888'
+    red:     '0xffa07a' # lightsalmon
+    green:   '0x3cb371' # mediumseagreen
+    yellow:  '0xcccc00' # yellow
+    blue:    '0x1e90ff' # dodgerblue
+    magenta: '0xee82ee' # violet
+    cyan:    '0xafeeee' # paleturquoise
+    white:   '0xffffff'
