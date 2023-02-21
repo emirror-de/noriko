@@ -7,26 +7,26 @@ colors:
 
   cursor:
     text: '0xffffff'
-    cursor: '0x008b8b' # darkcyan
+    cursor: '0x4e8bca'
 
   # Normal colors
   normal:
     black:   '0x000000'
-    red:     '0xdc143c' # crimson
-    green:   '0x32cd32' # limegreen
-    yellow:  '0x808000' # olive
-    blue:    '0x6495ed' # cornflowerblue
-    magenta: '0x7b68ee' # mediumslateblue
-    cyan:    '0x66cdaa' # mediumaquamarine
-    white:   '0x444444'
+    red:     '0xc82829' # crimson
+    green:   '0x718c00' # limegreen
+    yellow:  '0xb76514' # olive
+    blue:    '0x4271ae' # cornflowerblue
+    magenta: '0x8959a8' # mediumslateblue
+    cyan:    '0x3e999f' # mediumaquamarine
+    white:   '0xaaaaaa'
 
   # Bright colors
   bright:
-    black:   '0xa9a9a9'
-    red:     '0xcd5c5c' # indianred
-    green:   '0x20b2aa' # lightseagreen
-    yellow:  '0x9acd32' # yellowgreen
-    blue:    '0x00bfff' # deepskyblue
-    magenta: '0x5f9ea0' # cadetblut
-    cyan:    '0x00ced1' # paleturquoise
+    black:   '0x666666'
+    red:     '0xdb4b4c' # crimson
+    green:   '0xadd600' # limegreen
+    yellow:  '0xe78422' # olive
+    blue:    '0x628dc4' # cornflowerblue
+    magenta: '0xa17ab9' # mediumslateblue
+    cyan:    '0x59b8be' # mediumaquamarine
     white:   '0x444444'
