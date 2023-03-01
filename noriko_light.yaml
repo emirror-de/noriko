@@ -2,8 +2,8 @@
 colors:
   # Default colors
   primary:
-    background: '0xffffff'
-    foreground: '0x444444'
+    background: '#ffffff'
+    foreground: '#444444'
 
   cursor:
     text: '0xffffff'
@@ -11,22 +11,22 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xc82829' # crimson
-    green:   '0x718c00' # limegreen
-    yellow:  '0xb76514' # olive
-    blue:    '0x4271ae' # cornflowerblue
-    magenta: '0x8959a8' # mediumslateblue
-    cyan:    '0x3e999f' # mediumaquamarine
-    white:   '0xaaaaaa'
+    black:   '#000000'
+    red:     '#f10000'
+    green:   '#0f4dff' # member
+    yellow:  '#a48700'
+    blue:    '#3d6cb9'
+    magenta: '#d8239e'
+    cyan:    '#0092b3'
+    white:   '#999999' # comments
 
   # Bright colors
   bright:
-    black:   '0x666666'
-    red:     '0xdb4b4c' # crimson
-    green:   '0xadd600' # limegreen
-    yellow:  '0xe78422' # olive
-    blue:    '0x628dc4' # cornflowerblue
-    magenta: '0xa17ab9' # mediumslateblue
-    cyan:    '0x59b8be' # mediumaquamarine
-    white:   '0x444444'
+    black:   '#666666'
+    red:     '#444444' # variables
+    green:   '#4dc61c' # string
+    yellow:  '#f57b02' # types
+    blue:    '#0e9ab1' # methods
+    magenta: '#52abe4' # keywords
+    cyan:    '#009db3'
+    white:   '#444444'
