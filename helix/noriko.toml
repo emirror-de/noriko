@@ -1,0 +1,197 @@
+attribute = "red"
+
+"type" = "cyan-bright"
+"type.builtin" = "blue"
+"type.parameter" = "red"
+#"type.enum"
+"type.enum.variant" = "violet"
+
+#constructor
+#constant
+"constant.builtin.boolean" = "red"
+#"constant.builtin"
+#"constant.character"
+#"constant.character.escape"
+"constant.numeric.integer" = "yellow"
+"constant.numeric.float" = "yellow"
+
+string = "green"
+#"string.regexp"
+#"string.special"
+#"string.special.path"
+"string.special.url" = "blue-bright"
+#"string.special.symbol"
+
+comment = { fg = "gray", modifiers=["italic"] }
+#"comment.line"
+#"comment.block"
+#"comment.block.documentation" = "gray"
+
+#variable
+"variable.builtin" = "red"
+"variable.parameter" = "blue"
+#"variable.other"
+#"variable.member"
+
+#label
+
+#punctuation
+#"punctuation.delimiter"
+#"punctuation.bracket"
+#"punctuation.special"
+
+keyword = "cyan"
+"keyword.control" = "cyan-bright"
+#"keyword.control.conditional"
+#"keyword.control.repeat"
+#"keyword.control.import"
+#"keyword.control.return"
+#"keyword.control.exception"
+#"keyword.operator"
+#"keyword.directive"
+#"keyword.function"
+#"keyword.storage"
+#"keyword.storage.type"
+#"keyword.storage.modifier"
+
+#operator
+
+#"function.builtin"
+#"function.method"
+#"function.macro"
+#"function.special"
+
+#tag
+#"tag.builtin"
+
+#namespace
+
+#special
+
+#markup
+#"markup.heading"
+#"markup.heading.marker"
+#"markup.heading.1 2 3 4 5 6"
+#"markup.list"
+#"markup.list.unnumbered"
+#"markup.list.numbered"
+#"markup.list.checked"
+#"markup.list.unchecked"
+#"markup.bold"
+#"markup.italic"
+#"markup.strikethrough"
+#"markup.link"
+#"markup.link.url"
+#"markup.link.label"
+#"markup.link.text"
+#"markup.quote"
+#"markup.raw"
+#"markup.raw.inline"
+#"markup.raw.block"
+
+#diff
+"diff.plus" = "#00dd00"
+"diff.plus.gutter" = "#00dd00"
+"diff.minus" = "#ff0000"
+"diff.minus.gutter" = "#ff0000"
+"diff.delta" = "magenta"
+"diff.delta.gutter" = "magenta"
+"diff.delta.moved" = "blue-bright"
+
+###################
+# INTERFACE
+###################
+#markup
+#markup.normal
+#markup.normal.completion
+#markup.normal.hover
+#markup.heading
+#markup.heading.completion
+#markup.heading.hover
+#markup.raw
+#markup.raw.inline
+#markup.raw.inline.completion
+#markup.raw.inline.hover
+
+"ui.background" = { fg = "black", bg = "white" }
+#"ui.background.separator" = "white-bright"
+"ui.cursor" = { fg = "white", bg = "blue-bright" }
+#"ui.cursor.normal"
+#"ui.cursor.insert"
+#"ui.cursor.select"
+"ui.cursor.match" = { fg = "blue-bright", bg = "white-bright", modifiers = ["bold"] }
+#"ui.cursor.primary"
+#"ui.cursor.primary.normal"
+#"ui.cursor.primary.insert"
+#"ui.cursor.primary.select"
+"ui.debug.breakpoint" = "blue-bright"
+"ui.debug.active" = { fg = "white-bright", bg = "blue-bright" }
+#ui.gutter
+#ui.gutter.selected
+#ui.highlight.frameline
+"ui.linenr" = { fg = "gray", bg = "white" }
+"ui.linenr.selected" = { fg = "white", bg = "blue-bright" }
+"ui.statusline" = { fg = "white", bg = "blue-bright" }
+"ui.statusline.inactive" = { fg = "black", bg = "white-bright" }
+"ui.statusline.normal" = { fg = "white", bg = "blue-bright" }
+"ui.statusline.insert" = { fg = "white", bg = "cyan-bright" }
+"ui.statusline.select" = { fg = "white", bg = "green" }
+#"ui.statusline.separator"
+#ui.bufferline
+#ui.bufferline.active
+#ui.bufferline.background
+"ui.popup" = { fg = "black", bg = "white-bright" }
+#"ui.popup.info"
+"ui.window" = { fg = "black", bg = "white" }
+#"ui.help"
+"ui.text" = { fg = "black", bg = "white" }
+"ui.text.inactive" = { fg = "black", bg = "white-bright" }
+#"ui.text.info"
+#"ui.virtual.ruler" = { fg = "black", bg = "white-bright" }
+#"ui.virtual.whitespace"
+"ui.virtual.indent-guide" = { fg = "white-bright", bg = "white" }
+#"ui.virtual.inlay-hint"
+#"ui.virtual.inlay-hint.parameter"
+#"ui.virtual.inlay-hint.type"
+#"ui.virtual.wrap"
+#"ui.virtual.jump-label"
+"ui.menu" = { fg = "black", bg = "white-bright" }
+"ui.menu.selected" = { fg = "white-bright", bg = "black" }
+"ui.menu.scroll" = { fg = "white-bright", bg = "black" }
+"ui.selection" = { bg = "white-bright" }
+#"ui.selection.primary" = { bg = "white-bright" }
+"ui.highlight" = { bg = "white-bright" }
+#"ui.cursorline.primary"
+#"ui.cursorline.secondary"
+#"ui.cursorcolumn.primary" = { fg = "black", bg = "white-bright" }
+#"ui.cursorcolumn.secondary" = { fg = "blue-bright", bg = "white-bright" } 
+
+warning = { fg = "blue-bright", bg = "white" }
+error = { fg = "red", bg = "white" }
+info = { fg = "blue", bg = "white" }
+hint = { fg = "yellow", bg = "white" }
+
+diagnostic.hint = { fg = "yellow", bg = "white-bright" }
+diagnostic.info = { fg = "blue", bg = "white-bright" }
+diagnostic.warning = { fg = "blue-bright", bg = "white-bright" }
+diagnostic.error = { fg = "red", bg = "white-bright" }
+diagnostic.unnecessary = { fg = "blue", bg = "white-bright" }
+diagnostic.deprecated = { fg = "blue", bg = "white-bright" }
+
+[palette]
+black = "#000000"
+red = "#990026"
+green = "#009926"
+yellow = "#739900"
+blue = "#002699"
+cyan = "#007399"
+magenta = "#730099"
+white = "#e6e6e6"
+
+gray = "#4d4d4c"
+
+blue-bright = "#260099"
+cyan-bright = "#009973"
+white-bright = "#ffffff"
+violet = "#ad378a"
+
