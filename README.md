@@ -1,3 +1,3 @@
-# noriko - alacritty colorscheme
+# noriko
 
-Because I was not happy with all the colorschemes out there, I created my own.
+Noriko is an unagitated and simple light color scheme that is well suited for working in bright as well as dark areas.
