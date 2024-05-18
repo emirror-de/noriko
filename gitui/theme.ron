@@ -1,0 +1,23 @@
+(
+  selected_tab: Some(Gray),
+  command_fg: Some(Gray),
+  selection_bg: Some(Green),
+  selection_fg: Some(White),
+  cmdbar_bg: Some(Black),
+  cmdbar_extra_lines_bg: Some(Reset),
+  disabled_fg: Some(DarkGray),
+  diff_line_add: Some(Green),
+  diff_line_delete: Some(Red),
+  diff_file_added: Some(Green),
+  diff_file_removed: Some(Red),
+  diff_file_moved: Some(Blue),
+  diff_file_modified: Some(Gray),
+  commit_hash: Some(Gray),
+  commit_time: Some(Gray),
+  commit_author: Some(Gray),
+  danger_fg: Some(Red),
+  push_gauge_bg: Some(Gray),
+  push_gauge_fg: Some(White),
+  tag_fg: Some(Gray),
+  branch_fg: Some(Gray)
+)
