@@ -115,27 +115,27 @@ keyword = "cyan"
 
 "ui.background" = { fg = "black", bg = "white" }
 #"ui.background.separator" = "white-bright"
-"ui.cursor" = { fg = "white", bg = "blue-bright" }
+"ui.cursor" = { fg = "white", bg = "green" }
 #"ui.cursor.normal"
 #"ui.cursor.insert"
 #"ui.cursor.select"
-"ui.cursor.match" = { fg = "blue-bright", bg = "white-bright", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "green", bg = "yellow", modifiers = ["bold"] }
 #"ui.cursor.primary"
 #"ui.cursor.primary.normal"
 #"ui.cursor.primary.insert"
 #"ui.cursor.primary.select"
-"ui.debug.breakpoint" = "blue-bright"
-"ui.debug.active" = { fg = "white-bright", bg = "blue-bright" }
+"ui.debug.breakpoint" = "green"
+"ui.debug.active" = { fg = "white-bright", bg = "green" }
 #ui.gutter
 #ui.gutter.selected
 #ui.highlight.frameline
 "ui.linenr" = { fg = "gray", bg = "white" }
-"ui.linenr.selected" = { fg = "white", bg = "blue-bright" }
-"ui.statusline" = { fg = "white", bg = "blue-bright" }
+"ui.linenr.selected" = { fg = "white", bg = "green" }
+"ui.statusline" = { fg = "white", bg = "green" }
 "ui.statusline.inactive" = { fg = "black", bg = "white-bright" }
 "ui.statusline.normal" = { fg = "white", bg = "blue-bright" }
 "ui.statusline.insert" = { fg = "white", bg = "cyan-bright" }
-"ui.statusline.select" = { fg = "white", bg = "green" }
+"ui.statusline.select" = { fg = "white", bg = "magenta" }
 #"ui.statusline.separator"
 #ui.bufferline
 #ui.bufferline.active
