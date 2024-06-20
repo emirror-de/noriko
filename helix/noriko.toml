@@ -115,7 +115,7 @@ keyword = "cyan"
 
 "ui.background" = { fg = "black", bg = "white" }
 #"ui.background.separator" = "white-bright"
-"ui.cursor" = { fg = "white", bg = "green" }
+"ui.cursor" = { fg = "white", bg = "cyan" }
 #"ui.cursor.normal"
 #"ui.cursor.insert"
 #"ui.cursor.select"
@@ -130,8 +130,8 @@ keyword = "cyan"
 #ui.gutter.selected
 #ui.highlight.frameline
 "ui.linenr" = { fg = "gray", bg = "white" }
-"ui.linenr.selected" = { fg = "white", bg = "green" }
-"ui.statusline" = { fg = "white", bg = "green" }
+"ui.linenr.selected" = { fg = "white", bg = "cyan" }
+"ui.statusline" = { fg = "white", bg = "cyan" }
 "ui.statusline.inactive" = { fg = "black", bg = "white-bright" }
 "ui.statusline.normal" = { fg = "white", bg = "blue-bright" }
 "ui.statusline.insert" = { fg = "white", bg = "cyan-bright" }
